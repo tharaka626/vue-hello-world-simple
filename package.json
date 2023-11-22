@@ -1,10 +1,20 @@
 {
   "name": "vue-hello-world-simple",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Tharaka",
+    "email": "tharakahd626@gmail.com"
+  },
+  "main" : ".dist/vue-hello-world-simple.common.js",
+  "files": ["dist"],
+  "repository": "https://github.com/tharaka626/vue-hello-world-simple",
+  "bugs": "https://github.com/tharaka626/vue-hello-world-simple/issues",
+  "keywords": ["keywords", "go", "here"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library" : "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
