@@ -1,12 +1,13 @@
 {
   "name": "vue-hello-world-simple-tharaka",
-  "version": "0.1.1",
+  "description": "A simple vuejs Hello World plugin",
+  "version": "0.1.4",
   "private": false,
   "author": {
     "name": "Tharaka",
     "email": "tharakahd626@gmail.com"
   },
-  "main" : ".dist/vue-hello-world-simple-tharaka.common.js",
+  "license": "MIT",
   "files": ["dist"],
   "repository": "https://github.com/tharaka626/vue-hello-world-simple-tharaka",
   "bugs": "https://github.com/tharaka626/vue-hello-world-simple-tharaka/issues",
@@ -17,6 +18,7 @@
     "build-library" : "vue-cli-service build --target lib --name vue-hello-world-simple-tharaka ./src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "main" : "./dist/vue-hello-world-simple-tharaka.common.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
