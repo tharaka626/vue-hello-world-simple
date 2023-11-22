@@ -6,15 +6,15 @@
     "name": "Tharaka",
     "email": "tharakahd626@gmail.com"
   },
-  "main" : ".dist/vue-hello-world-simple.common.js",
+  "main" : ".dist/vue-hello-world-simple-tharaka.common.js",
   "files": ["dist"],
-  "repository": "https://github.com/tharaka626/vue-hello-world-simple",
-  "bugs": "https://github.com/tharaka626/vue-hello-world-simple/issues",
+  "repository": "https://github.com/tharaka626/vue-hello-world-simple-tharaka",
+  "bugs": "https://github.com/tharaka626/vue-hello-world-simple-tharaka/issues",
   "keywords": ["keywords", "go", "here"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library" : "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
+    "build-library" : "vue-cli-service build --target lib --name vue-hello-world-simple-tharaka ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
